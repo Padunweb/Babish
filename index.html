@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>SCSS</title>
+</head>
+<body>
+    <div class="wrapper">
+    <header class="header">
+        <div class="header__container">
+            <a href="#" class="header__logo">ur keys </a>
+         <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__item"><a class="header__link" href="#"><img src="img/icon/header/home.svg" alt=""> home</a></li>
+                <li class="header__item"><a class="header__link" href="#why"><img src="img/icon/header/key.svg" alt="">why this?</a></li>
+                <li class="header__item"><a class="header__link" href="#prices"><img src="img/icon/header/dolar.svg" alt="">prices</a></li>
+                <li class="header__item"><a class="header__link" href="#contact"><img src="img/icon/header/phone.svg" alt="">contact</a></li>
+            </ul>
+         </nav>
+         <a href="" class="header__button button">try it<span>.</span></a>
+         <div class="hamburger-menu">
+            
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+        
+            <ul class="menu__box">
+              <li><a class="menu__item menu__item_button" href="#">try it<span>.</span></a></li>
+                    <li><a class="menu__item" href="#"><img src="img/icon/header/home.svg" alt=""> home</a></li>
+                    <li><a class="menu__item" href="#why"><img src="img/icon/header/key.svg" alt="">why this?</a></li>
+                    <li><a class="menu__item" href="#prices"><img src="img/icon/header/dolar.svg" alt="">prices</a></li>
+                    <li><a class="menu__item" href="#contact"><img src="img/icon/header/phone.svg" alt="">contact</a></li>
+            </ul>
+          </div>
+         </div>
+    </header>
+    <main class="main">
+        <div class="try">
+            <div class="try__content">
+                <h1 class="try__title">Try this new <span>keys</span>!</h1>
+                <p class="try__text">If you’re bored of old keys, you have to try this modern key design where in Our Keys.</p>
+                <a href="" class="try__button button">try it<span>.</span></a>
+            </div>
+            <div class="try__image"><img src="img/Keys.jpg" alt=""></div>
+        </div>
+        <div class="why" id="why">
+            <div class="why__container">
+                <h2 class="why__title title"><img src="/img/icon/why-this/key.svg" alt="">why this?</h2>
+                <p class="why__text text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="why__cards">
+                        <div class="card-why trustable ">
+                            <div class="bg"></div>
+                            <img src="img/icon/why-this/chek.svg" alt="" class="card-why__logo">
+                            <h4 class="card-why__title">Trustable</h4>
+                            <p class="card-why__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...</p>
+                        </div>
+                        
+                        <div class="card-why design">
+                            <div class="bg"></div>
+                            <img src="img/icon/why-this/brush.svg" alt="" class="card-why__logo">
+                            <h4 class="card-why__title">Good Design</h4>
+                            <p class="card-why__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                        </div>
+                        <div class="card-why comfortable">
+                            <div class="bg"></div>
+                            <img src="img/icon/why-this/like.svg" alt="" class="card-why__logo">
+                            <h4 class="card-why__title">Comfortable</h4>
+                            <p class="card-why__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text...</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+         <div class="prices" id="prices">
+            <div class="prices__container">
+                <h2 class="prices__title title"><img src="/img/icon/price/dolar.svg" alt="">prices</h2>
+                <p class="prices__text text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="prices__cards">
+                    <div class="card-prices">
+                       <div class="card-prices__gradient-pink"></div>
+                       <div class="card-prices__content">
+                           <h4 class="card-prices__title">Basic</h4>
+                           <p class="card-prices__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                           <div class="card-prices__price">$10<span>/mo</span></div>
+                           <ul class="card-prices__list">
+                            <li class="card-prices__item">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                            <li class="card-prices__item">Lorem Ipsum is simply dummy text of the printing .</li>
+                            <li class="card-prices__item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem, ipsum dolor.</li>
+                           </ul>
+                       </div>
+                    </div>
+                    
+                    <div class="card-prices ">
+                        <div class="card-prices__gradient-blue"></div>
+                       <div class="card-prices__content">
+                           <h4 class="card-prices__title">Pro</h4>
+                           <p class="card-prices__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem, ipsum dolor.</p>
+                           <div class="card-prices__price">$15<span>/mo</span></div>
+                           <ul class="card-prices__list">
+                            <li class="card-prices__item">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                            <li class="card-prices__item">Lorem Ipsum is simply dummy text of the printing .</li>
+                            <li class="card-prices__item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem, ipsum dolor.</li>
+                           </ul>
+                       </div>
+                    </div>
+                    <div class="card-prices ">
+                        <div class="card-prices__gradient-orange"></div>
+                       <div class="card-prices__content">
+                           <h4 class="card-prices__title">Business</h4>
+                           <p class="card-prices__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum dolor sit amet.</p>
+                           <div class="card-prices__price">$20<span>/mo</span></div>
+                           <ul class="card-prices__list">
+                            <li class="card-prices__item">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                            <li class="card-prices__item">Lorem Ipsum is simply dummy text of the printing .</li>
+                            <li class="card-prices__item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem, ipsum dolor.</li>
+                           </ul>
+                       </div>
+                    </div>
+            </div>
+            </div>
+         </div>
+         <div class="data">
+            <div class="data__container">
+                <h2 class="data__title title">Fill out the form for feedback</h2>
+                <div  class="data__content">
+                    <form action="#" class="data__form form">
+                        <div class="form__name">
+                            <label class="form__label" for="name"> Name</label> <span class="form__info">i</span>
+                            <input  class="form__input"   id="name" type="text">
+                        </div>
+                        <div class="form__tel">
+                            <label class="form__label" for="tel"> Number</label> 
+                            <input class="form__input" id="tel" type="tel" minlength="16" maxlength="16">
+                            <p class="form__text"> <span>*</span>  Not necessarily</p>
+                        </div>
+                        <div class="form__email">
+                            <label class="form__label" for="email"> Email</label>
+                            <input class="form__input" id="mail" type="email" required>
+                        </div>
+                        <button class="button form__button" type="submit"> send</button>
+                    </form>
+                    <div class="data__image">
+    
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div class="contact" id="contact">
+            <div class="contact__container">
+                <h2 class="contact__title title"><img src="img/icon/contact/call.svg" alt="">Contact</h2>
+                <p class="contact__text text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="contact__content">
+                    <ul class="contact__info">
+                        <li class="contact__item "><div class="email">ourkeys@gmail.com</div><img src="img/icon/contact/email.svg" alt=""><span>Our email</span></li>
+                        <li class="contact__item "> <div class="home">USA.New-York.Downing str.7</div> <img src="img/icon/contact/home.svg" alt=""><span>Our address</span></li>
+                        <li class="contact__item "> <div class="phone">+38(097)23-46-758</div><img src="img/icon/contact/phone.svg" alt=""><span>Our number</span></li>
+                    </ul>
+                    <div class="contact__circle">
+                        <img class="contact__img" src="img/map.jpg" alt="map">
+                    </div>
+                </div>
+            </div>
+         </div>
+    </main>
+    <footer class="footer">
+         <a href="#" class="footer__logo">ur keys </a>
+    </footer>
+    </div>
+</body>
+</html>
